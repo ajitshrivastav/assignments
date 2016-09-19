@@ -1,5 +1,5 @@
 # load the original data set
-original_data_set <- read.csv("data/titanic_original.csv")
+original_data_set <- read.csv("data_wrangling_ex_2/data/titanic_original.csv")
 summary(original_data_set)
 # print unique values for embarked
 unique(original_data_set$embarked)
