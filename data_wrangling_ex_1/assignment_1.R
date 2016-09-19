@@ -1,6 +1,6 @@
 
 # Load csv file in a data frame
-original_prods <- read.csv("data/refine_original.csv")
+original_prods <- read.csv("data_wrangling_ex_1/data/refine_original.csv")
 # standardize company names to lower case
 products_df <- original_prods %>% mutate(company=tolower(company))
 
